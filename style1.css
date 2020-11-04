@@ -1,0 +1,207 @@
+body{
+    margin: 0 auto;
+    background-color:white;
+}
+.container{
+    width: 1000px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+
+}
+.logo{
+    float: left;
+    padding: 15px;
+
+}
+.search{
+    float: right;
+    padding: 15px;
+}
+
+.clearfix{
+    clear: both
+}
+.main-menu{
+    background-color: teal;
+}
+.main-menu>ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.main-menu>ul>li{
+    display: inline-block;
+}
+.main-menu>ul>li>a{
+    color: white;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: small;
+}
+.main-menu>ul>li>a:hover{ /*bch just ki tji lcurseur fou9 lhaja heki twali lounha bl bakcground color eli bch nekhtarou*/
+    background-color: orange;
+}
+/*drop */
+.drop{
+    list-style-type: none;  /* bch tna7ili lunderilne*/
+    position: absolute; /* bch thabathomli louta */
+    padding: 0;
+    margin: 0;
+    display: none; /*bch nkhabiha pr le moment*/
+    z-index: 999; /* ken man7othech mayafichilich lblck ken ki slider yetbadl wki n7otha yo93d dima yaffichili lblock : priority kifha kif slider ya3ni*/
+}
+.drop>li>a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: small;
+    font-family: sans-serif;
+    padding: 15px;
+    background-color: black;
+}
+.drop>li>a:hover{
+    background-color: orange;
+}
+
+.main-menu>ul>li:hover .drop{ /* bch ki nji fou9 l li ili teb3a ldrop yaffichli lblock */
+    display: block;
+}
+
+/*banner*/
+.banner{
+    width: 1000px;
+    height: 659px;
+    overflow: hidden; /*ay haja fi west l banner tkoun lsize mte3ha akber mn mte3 l banner ymaskiha*/
+
+}
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+.content_holder{
+    background-color: rosybrown;
+}
+.content{
+    width: 700px;
+    height: auto;
+    padding: 25px;
+    background-color: white;
+    float: left;
+}
+
+.content h1{
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+.asidebar{
+    float: left;
+    padding: 15px;
+}
+
+.asidebar h3{
+    font-family: sans-serif;
+    color: white;
+}
+.asidebar ul{
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+}
+
+.asidebar ul>li>a{
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: small;
+    font-style: italic;
+    
+}
+.main-footer{
+    background-color: black;
+    color: white;
+    height: auto;
+    width: 950px;
+    padding: 25px;
+}
+.footer-box{
+    width: 237.5px; /* eli hia =950 sur 4*/
+    height: auto;
+    float: left;
+    font-family: sans-serif;
+}
+
+.footer-box ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.footer-box ul>li >a{
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: small;
+}
+address p{
+    font-size: small;
+}
+.footer-box address a{
+    color: teal;
+    font-size: small;
+}
+.copy{
+    font-family: sans-serif;
+    background-color: salmon;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+.copy p {
+    margin: 0px;
+}
+
+.content img{
+    max-width:100%;
+}
+
+.model{
+    width: 215.33px; /*nrmlmt 233.33 psk hia lwidth mta3 lcontent/3(700/3) ama na9asna mnha 8px mta3 lmargin(4*2)+ 2px mta3 lborder + 8 mta3 lpadding*/
+    height: auto;
+    float: left;
+    margin: 4px;
+    border: 1px solid black;
+    padding: 4px; /*prp 3al content*/
+}
+.sweat-captions{
+    font-weight: bold;
+}
+.sweat-captions del {
+    color: red;
+}
+.sweat-captions a {
+    display: block;
+    background-color: teal;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    font-size: small;
+}
+.sweat-captions a:hover{
+    background-color: rosybrown;
+}
+
+.banner iframe{
+    width: 100%;
+    height: 659px;
+}
